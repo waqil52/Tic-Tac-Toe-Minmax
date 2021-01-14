@@ -34,13 +34,25 @@ table tr td:last-child{
     display: none;
     width: 200px;
     top: 120px;
-    background-color: rgba(205, 133, 63, 0.8);
+    background-color: rgba(16, 24, 143, 0.8);
     position: absolute;
     left: 50%;
     margin-left: -100px;
-    padding-top: 50px;
+    padding-top: 0px;
     text-align: center;
     border-radius: 5px;
     color: white;
     font-size: 2em;
+}
+
+
+.playAgainbtn{  /* styling play again button*/
+    position: absolute;
+    left: 46.75%;
+    top: 55%;
+    background-color: green;
+    color: white;
+    border: 10px solid green;
+    border-radius: 5px;
+    cursor: pointer;
 }
